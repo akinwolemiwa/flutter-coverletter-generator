@@ -242,29 +242,6 @@ class _RegisterState extends ConsumerState<Register> {
                     },
                     text: "Register",
                   ),
-                  const YGap(value: 10),
-                  GestureDetector(
-                    onTap: () async {
-                      ref
-                          .read(authenticationProvider.notifier)
-                          .googleAuth()
-                          .then(
-                        (value) {
-                          value.fold(
-                            (l) => l,
-                            (r) {
-                              if (r) {
-                                Navigator.of(context).pop();
-                              }
-                            },
-                          );
-                        },
-                      );
-                    },
-                    child: const GoogleButton(
-                      text: 'Register with Google',
-                    ),
-                  ),
                   const YGap(value: 24),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,

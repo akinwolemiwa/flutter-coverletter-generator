@@ -144,29 +144,6 @@ class _LoginState extends ConsumerState<Login> {
                     },
                     text: "Sign In",
                   ),
-                  const YGap(value: 16),
-                  GestureDetector(
-                    onTap: () async {
-                      ref
-                          .read(authenticationProvider.notifier)
-                          .googleAuth()
-                          .then(
-                        (value) {
-                          value.fold(
-                            (l) => l,
-                            (r) {
-                              if (r) {
-                                Navigator.of(context).pop();
-                              }
-                            },
-                          );
-                        },
-                      );
-                    },
-                    child: const GoogleButton(
-                      text: 'Sign In with Google',
-                    ),
-                  ),
                   const YGap(value: 24),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.start,
