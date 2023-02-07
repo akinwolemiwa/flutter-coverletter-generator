@@ -68,7 +68,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                     child: picture == null
                         ? Text(
                             user.initials,
-                            style: textTheme.headline4!.copyWith(
+                            style: textTheme.headlineMedium!.copyWith(
                               color: AppColors.primaryMain,
                             ),
                           )
@@ -79,7 +79,7 @@ class _HomePageState extends ConsumerState<HomePage> {
               const YGap(value: 25),
               Text(
                 "Recent files",
-                style: textTheme.headline4!.copyWith(
+                style: textTheme.headlineMedium!.copyWith(
                   color: AppColors.greys.shade800,
                   fontWeight: FontWeight.w600,
                 ),
@@ -103,7 +103,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                     const YGap(value: 10),
                     Text(
                       "No generated files yet",
-                      style: textTheme.headline5!.copyWith(
+                      style: textTheme.headlineSmall!.copyWith(
                         color: AppColors.greys.shade800,
                       ),
                     ),
@@ -113,14 +113,14 @@ class _HomePageState extends ConsumerState<HomePage> {
               const YGap(value: 60),
               Text(
                 "Your Cover Letter",
-                style: textTheme.headline4!.copyWith(
+                style: textTheme.headlineMedium!.copyWith(
                   color: AppColors.greys.shade800,
                 ),
               ),
               const YGap(value: 10),
               Text(
                 "Maximum file size is 10MB and you can only upload a maximum of 1 file per upload session,",
-                style: textTheme.bodyText2!.copyWith(
+                style: textTheme.bodyMedium!.copyWith(
                   color: AppColors.greys.shade400,
                 ),
               ),
@@ -158,7 +158,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                           const YGap(value: 10),
                           Text(
                             "File supported, PDF",
-                            style: textTheme.bodyText2!.copyWith(
+                            style: textTheme.bodyMedium!.copyWith(
                               color: AppColors.greys.shade400,
                             ),
                           ),
@@ -196,7 +196,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                             },
                             child: Text(
                               "Browse",
-                              style: textTheme.bodyText2!.copyWith(
+                              style: textTheme.bodyMedium!.copyWith(
                                 color: AppColors.primaryMain,
                                 fontWeight: FontWeight.w500,
                               ),

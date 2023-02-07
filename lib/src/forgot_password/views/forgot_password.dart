@@ -35,7 +35,7 @@ class _ForgotPasswordState extends ConsumerState<ForgotPassword> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Forgot Password', style: textTheme.headline3),
+                Text('Forgot Password', style: textTheme.displaySmall),
                 YGap(value: 8.h),
                 const Text(
                     'You appear to have forgotten your password. Enter the email registered to your account, and a code will be sent to reset your password.'),
@@ -58,7 +58,7 @@ class _ForgotPasswordState extends ConsumerState<ForgotPassword> {
                       borderRadius: BorderRadius.circular(8),
                     ),
                     hintText: 'email@example.com',
-                    hintStyle: textTheme.bodyText1!.copyWith(
+                    hintStyle: textTheme.bodyLarge!.copyWith(
                       color: AppColors.hinttext,
                     ),
                   ),

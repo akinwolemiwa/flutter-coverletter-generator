@@ -30,7 +30,7 @@ class OutlineButton extends StatelessWidget {
         alignment: Alignment.center,
         child: Text(
           btnText,
-          style: textTheme.bodyText1!.copyWith(
+          style: textTheme.bodyLarge!.copyWith(
             fontWeight: FontWeight.w700,
             color: AppColors.primaryMain,
           ),

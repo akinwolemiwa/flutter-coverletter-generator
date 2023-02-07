@@ -6,7 +6,6 @@ import 'package:coverletter/src/forgot_password/views/forgot_password.dart';
 import 'package:coverletter/src/theme/color.dart';
 import 'package:coverletter/src/theme/theme.dart';
 import 'package:coverletter/src/widgets/bottom_nav_widget.dart';
-import 'package:coverletter/src/widgets/google_button.dart';
 import 'package:coverletter/src/widgets/primary_button.dart';
 import 'package:coverletter/src/widgets/spacing.dart';
 import 'package:flutter/material.dart';
@@ -56,7 +55,7 @@ class _LoginState extends ConsumerState<Login> {
                 children: [
                   Text(
                     "Login to your account ",
-                    style: textTheme.headline3,
+                    style: textTheme.displaySmall,
                   ),
                   const YGap(value: 24),
                   const Text("Email Address"),

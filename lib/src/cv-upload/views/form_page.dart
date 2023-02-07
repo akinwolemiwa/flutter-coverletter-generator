@@ -67,7 +67,7 @@ class _FormPageState extends ConsumerState<FormPage> {
                 children: [
                   Text(
                     "Tell us a little about the job",
-                    style: textTheme.headline4!.copyWith(
+                    style: textTheme.headlineMedium!.copyWith(
                       color: AppColors.header,
                     ),
                   ),

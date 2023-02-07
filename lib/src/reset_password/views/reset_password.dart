@@ -1,12 +1,10 @@
 import 'package:coverletter/src/constants/string.dart';
-import 'package:coverletter/src/forgot_password/model/extensions/string_extensions.dart';
 import 'package:coverletter/src/forgot_password/views/forgot_password.dart';
 import 'package:coverletter/src/theme/theme.dart';
 import 'package:coverletter/src/widgets/bottom_sheet.dart';
 import 'package:coverletter/src/widgets/primary_button.dart';
 import 'package:coverletter/src/widgets/spacing.dart';
 import 'package:flutter/material.dart';
-
 import 'package:coverletter/src/theme/color.dart';
 import 'package:coverletter/src/widgets/text_field.dart';
 import 'package:flutter/services.dart';
@@ -39,7 +37,7 @@ class _ForgotPasswordState extends State<ResetPassword> {
               children: [
                 Text(
                   'Reset Password',
-                  style: textTheme.headline3,
+                  style: textTheme.displaySmall,
                 ),
                 YGap(value: 8.h),
                 const Text(

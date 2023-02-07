@@ -47,7 +47,7 @@ class _DownloadOptionsState extends ConsumerState<DownloadOptions> {
                   const Spacer(),
                   Text(
                     'Download Option',
-                    style: textTheme.headline4!,
+                    style: textTheme.headlineMedium!,
                   ),
                   const Spacer(),
                   IconButton(
@@ -61,7 +61,7 @@ class _DownloadOptionsState extends ConsumerState<DownloadOptions> {
             ),
             Expanded(
               child: Padding(
-                padding: EdgeInsets.all(24.sm),
+                padding: EdgeInsets.all(24.spMin),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
@@ -93,7 +93,7 @@ class _DownloadOptionsState extends ConsumerState<DownloadOptions> {
                         ),
                         Text(
                           'Send downloaded template to email.',
-                          style: textTheme.bodyText2,
+                          style: textTheme.bodyMedium,
                         ),
                       ],
                     ),
@@ -118,7 +118,7 @@ class _DownloadOptionsState extends ConsumerState<DownloadOptions> {
                         'Download Cover Letter',
                         style: Theme.of(context)
                             .textTheme
-                            .bodyText1!
+                            .bodyLarge!
                             .copyWith(color: Colors.white),
                       ),
                     ),
@@ -151,7 +151,7 @@ class _DownloadOptionsState extends ConsumerState<DownloadOptions> {
               Expanded(
                 child: Text(
                   documentFormat.name.toUpperCase(),
-                  style: Theme.of(context).textTheme.subtitle1,
+                  style: Theme.of(context).textTheme.titleMedium,
                 ),
               ),
               const XGap(value: 30),

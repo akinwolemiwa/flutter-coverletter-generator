@@ -14,7 +14,7 @@ class Languages extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text('Languages',
-            style: textTheme.headline4!.copyWith(fontSize: 16)),
+            style: textTheme.headlineMedium!.copyWith(fontSize: 16)),
       ),
       body: SingleChildScrollView(
         child: SafeArea(
@@ -48,7 +48,7 @@ class Languages extends StatelessWidget {
                         ),
                         Text(
                           "English (UK)",
-                          style: textTheme.bodyText1,
+                          style: textTheme.bodyLarge,
                         ),
                         const Spacer(),
                         Checkbox(

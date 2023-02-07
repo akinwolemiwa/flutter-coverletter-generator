@@ -52,7 +52,7 @@ class _PdfHomeState extends ConsumerState<PdfHome> {
             children: [
               Text(
                 'Your Information has been updated.',
-                style: textTheme.headline3,
+                style: textTheme.displaySmall,
               ),
               const YGap(value: 20),
               Expanded(

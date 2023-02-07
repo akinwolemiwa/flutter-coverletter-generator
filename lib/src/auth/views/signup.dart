@@ -4,7 +4,6 @@ import 'package:coverletter/src/auth/views/verification.dart';
 import 'package:coverletter/src/constants/string.dart';
 import 'package:coverletter/src/theme/color.dart';
 import 'package:coverletter/src/theme/theme.dart';
-import 'package:coverletter/src/widgets/google_button.dart';
 import 'package:coverletter/src/widgets/primary_button.dart';
 import 'package:coverletter/src/widgets/spacing.dart';
 import 'package:flutter/material.dart';
@@ -49,7 +48,7 @@ class _RegisterState extends ConsumerState<Register> {
       appBar: AppBar(
         title: Text(
           'Create Account',
-          style: textTheme.headline3!.copyWith(fontSize: 16),
+          style: textTheme.displaySmall!.copyWith(fontSize: 16),
         ),
         centerTitle: true,
       ),
@@ -64,7 +63,7 @@ class _RegisterState extends ConsumerState<Register> {
                 children: [
                   Text(
                     "Don't have an account?\nSignup to save cover letter",
-                    style: textTheme.headline3,
+                    style: textTheme.displaySmall,
                   ),
                   const YGap(value: 24),
                   const Text("Full Name"),
@@ -85,7 +84,7 @@ class _RegisterState extends ConsumerState<Register> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                       hintText: 'John Doe',
-                      hintStyle: textTheme.bodyText1!.copyWith(
+                      hintStyle: textTheme.bodyLarge!.copyWith(
                         color: AppColors.hinttext,
                       ),
                     ),
@@ -118,7 +117,7 @@ class _RegisterState extends ConsumerState<Register> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                       hintText: 'johndoe@gmail.com',
-                      hintStyle: textTheme.bodyText1!.copyWith(
+                      hintStyle: textTheme.bodyLarge!.copyWith(
                         color: AppColors.hinttext,
                       ),
                     ),
@@ -162,7 +161,7 @@ class _RegisterState extends ConsumerState<Register> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                       hintText: '**********',
-                      hintStyle: textTheme.bodyText1!.copyWith(
+                      hintStyle: textTheme.bodyLarge!.copyWith(
                         color: AppColors.hinttext,
                       ),
                     ),
@@ -206,7 +205,7 @@ class _RegisterState extends ConsumerState<Register> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                       hintText: 'password1234',
-                      hintStyle: textTheme.bodyText1!.copyWith(
+                      hintStyle: textTheme.bodyLarge!.copyWith(
                         color: AppColors.hinttext,
                       ),
                     ),
@@ -258,7 +257,7 @@ class _RegisterState extends ConsumerState<Register> {
                         },
                         child: Text(
                           "Sign In",
-                          style: textTheme.bodyText2!.copyWith(
+                          style: textTheme.bodyMedium!.copyWith(
                             fontWeight: FontWeight.w600,
                             color: AppColors.primaryMain,
                           ),

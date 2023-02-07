@@ -19,7 +19,7 @@ MaterialButton downloadButton({required bool active}) {
     disabledColor: Colors.grey.shade200,
     child: Text(
       'Download Cover Letter',
-      style: textTheme.bodyText1!.copyWith(color: AppColors.backgroundColor),
+      style: textTheme.bodyLarge!.copyWith(color: AppColors.backgroundColor),
     ),
   );
 }

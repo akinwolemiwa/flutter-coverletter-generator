@@ -74,14 +74,14 @@ class _ProcessUploadCVState extends ConsumerState<ProcessUploadCV>
             children: [
               Text(
                 "Upload your CV and we will take care of the rest",
-                style: textTheme.headline4!.copyWith(
+                style: textTheme.headlineMedium!.copyWith(
                   color: AppColors.strokeDark,
                 ),
               ),
               const YGap(value: 10),
               Text(
                 "Maximum file size is 10MB and you can only upload a maximum of 1 file per upload session,",
-                style: textTheme.bodyText1!.copyWith(
+                style: textTheme.bodyLarge!.copyWith(
                   color: AppColors.greys.shade400,
                 ),
               ),
@@ -114,7 +114,7 @@ class _ProcessUploadCVState extends ConsumerState<ProcessUploadCV>
                               child: _progress == 250
                                   ? Text(fileName,
                                       overflow: TextOverflow.ellipsis,
-                                      style: textTheme.bodyText1!.copyWith(
+                                      style: textTheme.bodyLarge!.copyWith(
                                         color: AppColors.greys.shade800,
                                         fontWeight: FontWeight.w600,
                                       ))
@@ -124,7 +124,7 @@ class _ProcessUploadCVState extends ConsumerState<ProcessUploadCV>
                             _progress == 250
                                 ? Text(
                                     "File uploaded",
-                                    style: textTheme.bodyText1!.copyWith(
+                                    style: textTheme.bodyLarge!.copyWith(
                                       color: AppColors.greys.shade400,
                                       fontWeight: FontWeight.normal,
                                     ),
@@ -141,7 +141,7 @@ class _ProcessUploadCVState extends ConsumerState<ProcessUploadCV>
                                     },
                                     child: Text(
                                       "Remove file",
-                                      style: textTheme.bodyText1!.copyWith(
+                                      style: textTheme.bodyLarge!.copyWith(
                                         color: AppColors.errorMain,
                                         fontWeight: FontWeight.normal,
                                       ),
@@ -173,7 +173,7 @@ class _ProcessUploadCVState extends ConsumerState<ProcessUploadCV>
                         children: [
                           Text(
                             fileName,
-                            style: textTheme.bodyText1!.copyWith(
+                            style: textTheme.bodyLarge!.copyWith(
                               color: AppColors.greys.shade400,
                               fontWeight: FontWeight.normal,
                             ),

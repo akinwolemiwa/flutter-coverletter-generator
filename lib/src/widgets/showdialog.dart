@@ -45,7 +45,7 @@ class ShowDialog {
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.center,
-                          style: textTheme.bodyText1!.copyWith(
+                          style: textTheme.bodyLarge!.copyWith(
                             color: AppColors.white,
                           ),
                         ),

@@ -35,7 +35,7 @@ class _SettingsConsumerState extends ConsumerState<Settings> {
         centerTitle: true,
         title: Text(
           'Settings',
-          style: textTheme.headline4!.copyWith(fontSize: 16),
+          style: textTheme.headlineMedium!.copyWith(fontSize: 16),
         ),
       ),
       body: SafeArea(
@@ -137,11 +137,11 @@ class _SettingsConsumerState extends ConsumerState<Settings> {
                   children: [
                     Text(
                       user.name,
-                      style: textTheme.headline4,
+                      style: textTheme.headlineMedium,
                     ),
                     Text(
                       user.email,
-                      style: textTheme.bodyText2,
+                      style: textTheme.bodyMedium,
                     ),
                   ],
                 ),
@@ -179,7 +179,7 @@ class _SettingsConsumerState extends ConsumerState<Settings> {
                       const XGap(value: 18),
                       Text(
                         "Change Password",
-                        style: textTheme.headline4!.copyWith(
+                        style: textTheme.headlineMedium!.copyWith(
                           fontSize: 16,
                           color: AppColors.greys.shade400,
                         ),
@@ -212,7 +212,7 @@ class _SettingsConsumerState extends ConsumerState<Settings> {
                       const XGap(value: 18),
                       Text(
                         "Language",
-                        style: textTheme.headline4!.copyWith(
+                        style: textTheme.headlineMedium!.copyWith(
                           fontSize: 16,
                           color: AppColors.greys.shade400,
                         ),
@@ -251,7 +251,7 @@ class _SettingsConsumerState extends ConsumerState<Settings> {
                         ),
                         Text(
                           " 2022. All rights reserved",
-                          style: textTheme.headline6!.copyWith(
+                          style: textTheme.titleLarge!.copyWith(
                             fontWeight: FontWeight.w400,
                             color: AppColors.greys.shade400,
                           ),

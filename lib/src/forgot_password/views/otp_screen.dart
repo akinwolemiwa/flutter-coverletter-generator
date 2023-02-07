@@ -65,7 +65,7 @@ class _OtpScreenState extends ConsumerState<OtpScreen> {
             children: [
               Text(
                 'Email Verification',
-                style: textTheme.headline3,
+                style: textTheme.displaySmall,
               ),
               YGap(value: 10.h),
               const Text(
@@ -200,7 +200,7 @@ final defaultPinTheme = PinTheme(
   margin: const EdgeInsets.symmetric(horizontal: 16),
   width: 45.w,
   height: 48.h,
-  textStyle: textTheme.headline4!.copyWith(
+  textStyle: textTheme.headlineMedium!.copyWith(
     color: AppColors.strokeDark,
     fontWeight: FontWeight.w600,
   ),

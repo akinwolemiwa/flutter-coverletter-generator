@@ -6,9 +6,9 @@ import FlutterMacOS
 import Foundation
 
 import file_saver
-import path_provider_macos
+import path_provider_foundation
 import printing
-import shared_preferences_macos
+import shared_preferences_foundation
 import smart_auth
 import url_launcher_macos
 

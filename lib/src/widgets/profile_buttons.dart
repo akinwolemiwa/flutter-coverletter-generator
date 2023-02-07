@@ -45,7 +45,7 @@ class ProfileButton extends StatelessWidget {
                   const XGap(value: 24),
                   Text(
                     text,
-                    style: textTheme.bodyText1!.copyWith(
+                    style: textTheme.bodyLarge!.copyWith(
                       fontWeight: FontWeight.w400,
                       color: AppColors.header,
                       fontSize: 16,

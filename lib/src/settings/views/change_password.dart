@@ -32,7 +32,7 @@ class _ChangePasswordState extends ConsumerState<ChangePassword> {
         centerTitle: true,
         title: Text(
           'Change Password',
-          style: textTheme.headline4!.copyWith(fontSize: 18),
+          style: textTheme.headlineMedium!.copyWith(fontSize: 18),
         ),
       ),
       body: SingleChildScrollView(
@@ -46,12 +46,12 @@ class _ChangePasswordState extends ConsumerState<ChangePassword> {
                 children: [
                   Text(
                     "Create New Password",
-                    style: textTheme.headline3,
+                    style: textTheme.displaySmall,
                   ),
                   const YGap(),
                   Text(
                     "Input a unique password. The new password must be different from the previously used passwords.",
-                    style: textTheme.headline5!
+                    style: textTheme.headlineSmall!
                         .copyWith(fontWeight: FontWeight.w600),
                   ),
                   const YGap(),

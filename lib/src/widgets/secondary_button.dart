@@ -41,7 +41,7 @@ class SecondaryButton extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: textTheme.subtitle1!.copyWith(
+        style: textTheme.titleMedium!.copyWith(
           color: textColor,
           fontWeight: fontWeight,
         ),

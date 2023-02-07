@@ -35,7 +35,7 @@ class _AccordionWidgetState extends State<AccordionWidget> {
               selectedTileColor: Colors.transparent,
               title: Text(
                 widget.title,
-                style: textTheme.bodyText1!.copyWith(
+                style: textTheme.bodyLarge!.copyWith(
                   fontWeight: FontWeight.w400,
                   color: AppColors.header,
                   fontSize: 16,
@@ -65,7 +65,7 @@ class _AccordionWidgetState extends State<AccordionWidget> {
                     ),
                     child: Text(
                       widget.content,
-                      style: textTheme.bodyText2!.copyWith(
+                      style: textTheme.bodyMedium!.copyWith(
                         fontWeight: FontWeight.w400,
                         color: AppColors.greys.shade400,
                       ),

@@ -16,7 +16,7 @@ class HowItWorks extends StatelessWidget {
           centerTitle: true,
           title: Text(
             'How It Works',
-            style: textTheme.headline4!.copyWith(fontSize: 18),
+            style: textTheme.headlineMedium!.copyWith(fontSize: 18),
           ),
         ),
         backgroundColor: AppColors.backgroundColor,
@@ -27,7 +27,7 @@ class HowItWorks extends StatelessWidget {
               children: [
                 Text(
                   'Generate your cover letter in 4 simple steps.',
-                  style: textTheme.headline2!.copyWith(
+                  style: textTheme.displayMedium!.copyWith(
                     fontSize: 27,
                   ),
                 ),

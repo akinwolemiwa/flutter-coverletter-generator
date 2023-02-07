@@ -50,7 +50,7 @@ class StepsCard extends StatelessWidget {
                           text,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
-                          style: textTheme.bodyText1!.copyWith(fontSize: 16),
+                          style: textTheme.bodyLarge!.copyWith(fontSize: 16),
                         ),
                       )
                     ],

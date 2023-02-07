@@ -85,8 +85,8 @@ class _CoverLettersState extends ConsumerState<CoverLetters> {
                                         children: [
                                           Text(
                                             'Role: ${cvs[index].role}',
-                                            style:
-                                                textTheme.headline4!.copyWith(
+                                            style: textTheme.headlineMedium!
+                                                .copyWith(
                                               fontWeight: FontWeight.w600,
                                               color: AppColors.greys.shade400,
                                               fontSize: 16,
@@ -95,7 +95,7 @@ class _CoverLettersState extends ConsumerState<CoverLetters> {
                                           Text(
                                             'Organisation: ${cvs[index].companyName}',
                                             style:
-                                                textTheme.subtitle2!.copyWith(
+                                                textTheme.titleSmall!.copyWith(
                                               fontWeight: FontWeight.w400,
                                               color: AppColors.greys.shade400,
                                               fontSize: 12,
@@ -168,7 +168,7 @@ class _CoverLettersState extends ConsumerState<CoverLetters> {
             children: [
               Text(
                 'Letter Download',
-                style: textTheme.headline4!.copyWith(
+                style: textTheme.headlineMedium!.copyWith(
                   fontWeight: FontWeight.w600,
                   color: AppColors.header,
                 ),
@@ -188,7 +188,7 @@ class _CoverLettersState extends ConsumerState<CoverLetters> {
                     alignment: Alignment.center,
                     child: Text(
                       'View Letter',
-                      style: textTheme.bodyText1!.copyWith(
+                      style: textTheme.bodyLarge!.copyWith(
                         fontWeight: FontWeight.w600,
                         color: Colors.white,
                       ),

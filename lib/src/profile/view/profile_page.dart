@@ -32,7 +32,7 @@ class ProfilePage extends ConsumerWidget {
           centerTitle: true,
           title: Text(
             'Profile',
-            style: textTheme.headline4!.copyWith(fontSize: 18),
+            style: textTheme.headlineMedium!.copyWith(fontSize: 18),
           ),
           actions: [
             IconButton(
@@ -86,11 +86,11 @@ class ProfilePage extends ConsumerWidget {
               //name
               Text(
                 user.name,
-                style: textTheme.headline4,
+                style: textTheme.headlineMedium,
               ),
               const YGap(value: 5),
               //email
-              Text(user.email, style: textTheme.subtitle1),
+              Text(user.email, style: textTheme.titleMedium),
               const YGap(value: 25),
               //upload cv button
               InkWell(
@@ -109,7 +109,7 @@ class ProfilePage extends ConsumerWidget {
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 12),
                       child: Text('Upload CV',
-                          style: textTheme.bodyText1!.copyWith(
+                          style: textTheme.bodyLarge!.copyWith(
                               color: AppColors.primaryDark,
                               fontSize: 17,
                               fontWeight: FontWeight.w400)),
@@ -187,7 +187,7 @@ class ProfilePage extends ConsumerWidget {
               const YGap(value: 30),
               Text(
                 'Logout',
-                style: textTheme.headline4!.copyWith(
+                style: textTheme.headlineMedium!.copyWith(
                   fontWeight: FontWeight.w600,
                   color: AppColors.header,
                 ),
@@ -195,7 +195,7 @@ class ProfilePage extends ConsumerWidget {
               const YGap(value: 30),
               Text(
                 'Are you sure you want to logout',
-                style: textTheme.headline5!.copyWith(
+                style: textTheme.headlineSmall!.copyWith(
                   fontWeight: FontWeight.w300,
                   color: AppColors.header,
                 ),
@@ -216,7 +216,7 @@ class ProfilePage extends ConsumerWidget {
                     alignment: Alignment.center,
                     child: Text(
                       'Continue',
-                      style: textTheme.bodyText1!.copyWith(
+                      style: textTheme.bodyLarge!.copyWith(
                         fontWeight: FontWeight.w600,
                         color: Colors.white,
                       ),

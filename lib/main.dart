@@ -63,7 +63,7 @@ class Homepage extends ConsumerWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text('You have pushed the button this many times:'),
-            Text('$counter', style: textTheme.headline4),
+            Text('$counter', style: textTheme.headlineMedium),
           ],
         ),
       ),

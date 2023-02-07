@@ -19,7 +19,7 @@ class EmptyState extends StatelessWidget {
         Text(
           letterString,
           textAlign: TextAlign.center,
-          style: textTheme.headline3!.copyWith(
+          style: textTheme.displaySmall!.copyWith(
             color: AppColors.header,
           ),
         ),
@@ -27,7 +27,7 @@ class EmptyState extends StatelessWidget {
         Text(
           noLetter,
           textAlign: TextAlign.center,
-          style: textTheme.bodyText1!.copyWith(
+          style: textTheme.bodyLarge!.copyWith(
             color: AppColors.greys.shade400,
             fontWeight: FontWeight.w400,
           ),

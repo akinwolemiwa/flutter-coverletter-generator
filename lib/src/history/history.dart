@@ -23,7 +23,7 @@ class _HistoryPageState extends State<HistoryPage> {
         centerTitle: true,
         title: Text(
           'History',
-          style: textTheme.bodyText1!.copyWith(
+          style: textTheme.bodyLarge!.copyWith(
             fontWeight: FontWeight.w700,
             color: AppColors.header,
           ),

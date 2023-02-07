@@ -14,7 +14,7 @@ class Downloaded extends StatelessWidget {
           children: [
             Text(
               'Your Cover letter has been downloaded.',
-              style: Theme.of(context).textTheme.headline2,
+              style: Theme.of(context).textTheme.displayMedium,
             ),
             const Spacer(),
             Image.asset('assets/images/coverletter.png'),
@@ -28,7 +28,7 @@ class Downloaded extends StatelessWidget {
                 'View cover letter',
                 style: Theme.of(context)
                     .textTheme
-                    .bodyText1!
+                    .bodyLarge!
                     .copyWith(color: Colors.white),
               ),
             ),

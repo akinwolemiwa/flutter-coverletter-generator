@@ -34,7 +34,7 @@ class _DownloadingState extends ConsumerState<Downloading> {
           const YGap(value: 24),
           Text(
             'Downloading Cover Letter...',
-            style: Theme.of(context).textTheme.headline2,
+            style: Theme.of(context).textTheme.displayMedium,
             textAlign: TextAlign.center,
           ),
           const YGap(value: 24),
@@ -44,7 +44,7 @@ class _DownloadingState extends ConsumerState<Downloading> {
               const YGap(value: 32),
               Text(
                 'Loading...',
-                style: Theme.of(context).textTheme.bodyText2,
+                style: Theme.of(context).textTheme.bodyMedium,
               ),
             ],
           ),
@@ -61,7 +61,7 @@ class _DownloadingState extends ConsumerState<Downloading> {
               'Cancel Download',
               style: Theme.of(context)
                   .textTheme
-                  .bodyText1!
+                  .bodyLarge!
                   .copyWith(color: Colors.white),
             ),
           ),

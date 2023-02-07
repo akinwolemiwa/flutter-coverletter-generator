@@ -67,12 +67,12 @@ class _VerificationState extends ConsumerState<Verification> {
                 children: [
                   Text(
                     "Verify your account ",
-                    style: textTheme.headline3,
+                    style: textTheme.displaySmall,
                   ),
                   const YGap(value: 24),
                   Text(
                     "Enter the code sent to your email address",
-                    style: textTheme.bodyText1,
+                    style: textTheme.bodyLarge,
                   ),
                   const YGap(value: 24),
                   TextFormField(
@@ -88,7 +88,7 @@ class _VerificationState extends ConsumerState<Verification> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                       hintText: '0000',
-                      hintStyle: textTheme.bodyText1!.copyWith(
+                      hintStyle: textTheme.bodyLarge!.copyWith(
                         color: AppColors.hinttext,
                       ),
                     ),

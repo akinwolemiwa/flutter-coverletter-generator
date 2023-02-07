@@ -1,7 +1,6 @@
 import 'package:coverletter/src/auth/models/authentication_notifer.dart';
 import 'package:coverletter/src/auth/views/login.dart';
 import 'package:coverletter/src/constants/string.dart';
-import 'package:coverletter/src/forgot_password/model/extensions/string_extensions.dart';
 import 'package:coverletter/src/theme/theme.dart';
 import 'package:coverletter/src/widgets/bottom_sheet.dart';
 import 'package:coverletter/src/widgets/spacing.dart';
@@ -42,7 +41,7 @@ class _ForgotPasswordState extends ConsumerState<CreateNewPassword> {
               children: [
                 Text(
                   'Create New Password',
-                  style: textTheme.headline3,
+                  style: textTheme.displaySmall,
                 ),
                 YGap(value: 8.h),
                 const Text(

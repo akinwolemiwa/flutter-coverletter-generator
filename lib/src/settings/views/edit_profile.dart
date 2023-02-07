@@ -61,7 +61,7 @@ class _EditProfileState extends ConsumerState<EditProfile> {
                       borderRadius: BorderRadius.circular(8),
                     ),
                     hintText: user.name,
-                    hintStyle: textTheme.bodyText1!.copyWith(
+                    hintStyle: textTheme.bodyLarge!.copyWith(
                       color: AppColors.hinttext,
                     ),
                   ),
@@ -75,7 +75,7 @@ class _EditProfileState extends ConsumerState<EditProfile> {
                       borderRadius: BorderRadius.circular(8),
                     ),
                     hintText: user.role,
-                    hintStyle: textTheme.bodyText1!.copyWith(
+                    hintStyle: textTheme.bodyLarge!.copyWith(
                       color: AppColors.hinttext,
                     ),
                   ),

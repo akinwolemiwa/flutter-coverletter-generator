@@ -12,7 +12,8 @@ class FaqPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('FAQs', style: textTheme.headline4!.copyWith(fontSize: 16)),
+        title: Text('FAQs',
+            style: textTheme.headlineMedium!.copyWith(fontSize: 16)),
       ),
       backgroundColor: AppColors.backgroundColor,
       body: SingleChildScrollView(
@@ -26,7 +27,7 @@ class FaqPage extends StatelessWidget {
                   const YGap(value: 8),
                   Text(
                     'We are here to help you with anything and everything on Coverly. We have got you covered. Check our frequently asked questions listed below.',
-                    style: textTheme.subtitle1!.copyWith(
+                    style: textTheme.titleMedium!.copyWith(
                       color: AppColors.greys.shade400,
                       fontWeight: FontWeight.w600,
                     ),

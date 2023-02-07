@@ -234,11 +234,11 @@ class OnboardContent extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(title, style: textTheme.headline4),
+                      Text(title, style: textTheme.headlineMedium),
                       const YGap(value: 8),
                       Text(
                         description,
-                        style: textTheme.bodyText1,
+                        style: textTheme.bodyLarge,
                       ),
                     ],
                   ),
