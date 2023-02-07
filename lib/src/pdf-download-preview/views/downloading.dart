@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:coverletter/src/constants/assets.dart';
 import 'package:coverletter/src/pdf-download-preview/model/service/pdf_service.dart';
 import 'package:coverletter/src/widgets/spacing.dart';
