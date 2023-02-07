@@ -1,16 +1,10 @@
-# cvrltr
+# flutter-coverletter-generator
 
-A new Flutter project.
+This project uses gpt-3 to generate coverletters for users based on key words from their resume. Resumes are uploaded to the app in other to get coverletters
 
-## Getting Started
+## Live Demo
 
-This project is a starting point for a Flutter application.
+[Click here for a live demo of the app](https://appetize.io/app/ek36nh6ckbz5nc33ghgnwpdo44?device=pixel4&osVersion=12.0&scale=75)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
