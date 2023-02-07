@@ -33,7 +33,7 @@ abstract class Network {
 class NetworkImpl extends Network {
   NetworkImpl() {
     dio = Dio(
-      BaseOptions(baseUrl: "https://api.coverly.hng.tech"),
+      BaseOptions(baseUrl: ""),
     );
   }
 
